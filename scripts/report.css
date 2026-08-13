@@ -1,0 +1,29 @@
+/* 日报 PDF 样式(由 pandoc -> HTML -> wkhtmltopdf 使用) */
+body {
+  font-family: "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #1a1a1a;
+  margin: 24px;
+}
+h1 {
+  font-size: 20px;
+  border-bottom: 2px solid #2c6fbb;
+  padding-bottom: 8px;
+  color: #1f3d63;
+}
+h2 {
+  font-size: 15px;
+  color: #2c6fbb;
+  margin-top: 20px;
+}
+h3 {
+  font-size: 13px;
+  color: #333;
+}
+li {
+  margin-bottom: 2px;
+}
+em {
+  color: #666;
+}

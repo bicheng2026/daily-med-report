@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Stereotactic Body Radiation Therapy for Hepatocellular Carcinoma: Current Trends and Future Directions",
+    "journal": "International Journal of Radiation Oncology, Biology, Physics / IF=7.0 / 引用量:200+",
+    "background": "SBRT has emerged as a definitive local treatment for HCC, but optimal dosing, patient selection, and integration with systemic therapies remain active areas of investigation.",
+    "methods": "Comprehensive review of clinical trials and retrospective studies of SBRT for HCC, including dose-escalation studies, toxicity analyses, and combination strategies.",
+    "conclusion": "SBRT achieves local control rates of 80-95% for early-stage HCC with low toxicity. Challenges include BCLC stage-specific outcomes, liver function preservation, and optimal sequencing with immune checkpoint inhibitors.",
+    "innovation": "Systematic framework for SBRT dose selection based on tumor size, location, and liver function; proposed risk-adapted fractionation schedules.",
+    "link": "https://doi.org/10.1016/j.ijrobp.2023.01.045"
+  },
+  {
+    "title": "Metabolic dysfunction-associated steatotic liver disease (MASLD): a growing global health priority and a real challenge for the internist.",
+    "journal": "Internal and emergency medicine / 2026",
+    "background": "MASLD has emerged as the most prevalent chronic liver disease worldwide, reflecting the global rise in metabolic disorders such as obesity and diabetes.",
+    "methods": "Narrative review of epidemiology, pathophysiology, diagnostic criteria, and management strategies for MASLD.",
+    "conclusion": "Internists play a central role in early detection and multidisciplinary management of MASLD to prevent progression to cirrhosis and hepatocellular carcinoma.",
+    "innovation": "Pragmatic clinical framework for internists to screen, stage, and manage MASLD in routine practice.",
+    "link": "https://doi.org/10.1007/s11739-026-04461-4"
+  }
+]

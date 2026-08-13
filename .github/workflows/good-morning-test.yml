@@ -1,0 +1,32 @@
+name: 早上好邮件测试
+
+on:
+  # 只发一次:北京时间 2026-08-14 06:00(= UTC 2026-08-13 22:00)
+  # 验证完成后请删除本文件或到 Actions 页面禁用该工作流,避免明年重复触发
+  schedule:
+    - cron: "0 22 13 8 *"
+  # 手动触发,方便随时复测
+  workflow_dispatch:
+
+jobs:
+  send-good-morning:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: 发送邮件
+        uses: dawidd6/action-send-mail@v3
+        with:
+          # QQ 邮箱 SMTP 配置
+          server_address: smtp.qq.com
+          server_port: 465
+          username: 3552541955@qq.com
+          password: ${{ secrets.MAIL_PASS }}
+          # 收件人(163 邮箱接收外部邮件无白名单限制,可正常收取)
+          to: bicheng2026@163.com
+          from: 云端定时任务
+          subject: 早上好冯先生
+          body: |
+            早上好冯先生!
+
+            这封邮件由 GitHub Actions 云端定时任务自动发送(北京时间 06:00)。
+            如果它在您电脑关机时仍准时送达,说明云端定时方案验证通过。

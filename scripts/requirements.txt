@@ -1,0 +1,2 @@
+# 零第三方依赖:抓取与生成全部使用 Python 标准库(urllib / xml.etree)。
+# 无需 pip install,云端环境开箱即用。
